@@ -1,5 +1,5 @@
 10 let numero = RND (100)
-20 input "Tente adivinhar em qual numero estou pensando: "; tentativa
+20 input "Tente adivinhar em qual numero estou pensando(0-100): "; tentativa
 30 if tentativa = numero then goto 100
 40 if tentativa > numero then goto 150
 50 if tentativa < numero then goto 200
