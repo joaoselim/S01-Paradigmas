@@ -5,10 +5,7 @@ fn verificar_senha(senha: &str) -> bool{
   let tem_numero = senha.chars().any(|c| c.is_numeric());
   let tem_maiuscula = senha.chars().any(|c| c.is_uppercase());
 
-  if tem_8caracteres && tem_numero && tem_maiuscula {
-    return true;
-  }
-  else {false}
+  tem_8caracteres && tem_numero && tem_maiuscula
 }
 
 fn main() {
