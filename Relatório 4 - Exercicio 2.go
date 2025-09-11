@@ -10,8 +10,8 @@ func main() {
 
 	switch numero % 2 {
 	case 0:
-			fmt.Println("O número é PAR")
+			fmt.Println("O número é par")
 	default:
-			fmt.Println("O número é ÍMPAR")
+			fmt.Println("O número é ímpar")
 	}
 }
