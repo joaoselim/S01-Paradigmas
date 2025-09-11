@@ -1,0 +1,17 @@
+package main
+
+import ("fmt")
+
+func main() {
+	var numero int
+	
+	fmt.Print("Insira um número: ")
+	fmt.Scan(&numero)
+
+	switch numero % 2 {
+	case 0:
+			fmt.Println("O número é PAR")
+	default:
+			fmt.Println("O número é ÍMPAR")
+	}
+}
