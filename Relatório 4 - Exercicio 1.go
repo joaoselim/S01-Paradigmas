@@ -2,9 +2,9 @@ package main
 
 import ("fmt")
 
-func classificando_numero(numero int) string{
-	if numero > 0 {return "Positivo"
-	} else if numero < 0 {return "Negativo"
+func classificar_numero(num int) string{
+	if num > 0 {return "Positivo"
+	} else if num < 0 {return "Negativo"
 	} else {return "Zero"}
 }
 
